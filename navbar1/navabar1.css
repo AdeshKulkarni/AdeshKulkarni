@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: aquamarine;
+    height: 80px;
+    width: 100%;
+    
+}
+label.logo {
+
+    color: red;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bolder;
+
+}
+nav ul {
+    display: flex;
+    float: right;
+    margin-right: 50%;
+    justify-content: space-evenly;
+   
+    /* width: 25%;       */
+    
+  
+    
+
+}
+
+nav ul li {
+    /* display: inline-block;  */
+    display: flex;
+    line-height: 80px; 
+    /* justify-content: space-evenly;  */
+    margin: 0 5px;
+    color: green;
+}
+
